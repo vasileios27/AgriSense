@@ -17,3 +17,42 @@ This project calculates and visualizes the Normalized Difference Vegetation Inde
 Install the dependencies using:
 ```bash
 pip install -r requirements.txt
+```
+
+## Usage
+ - Place your raster file (GeoTIFF format) in the data/ directory.
+ - Run the script to calculate and plot NDVI:
+```bash
+ python src/calculate_ndvi.py
+```
+
+- The NDVI plot will be saved in the outputs/ directory.
+
+```bash
+ndvi-calculation/
+├── src/                   # Source code
+├── data/                  # Input data
+├── outputs/               # Generated outputs
+├── tests/                 # Test scripts
+├── .gitignore             # Ignored files
+├── README.md              # Project documentation
+├── requirements.txt       # Python dependencies
+└── LICENSE                # License file
+```
+
+## Sample NDVI Formula
+NDVI is calculated as:
+
+NDVI=(NIR−Red)/(NIR+Red)
+
+Where:
+
+gNIR: Near-infrared band.
+Red: Red band.
+Example Output
+
+References
+rasterio Documentation
+Sentinel-2 Data Overview
+License
+This project is licensed under the MIT Licens
