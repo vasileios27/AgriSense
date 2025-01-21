@@ -50,7 +50,7 @@ Where:
  - NIR: Near-infrared band.
  - Red: Red band.
 Example Output
-![NDVI Plot](images/ndvi_plot.png "NDVI Plot")
+![NDVI Plot](outputs/ndvi_plot.png "NDVI Plot")
 
 References
 rasterio Documentation
