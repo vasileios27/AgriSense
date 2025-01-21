@@ -47,9 +47,10 @@ $$NDVI = \frac{(NIR - Red)}{(NIR + Red)}$$
 
 Where:
 
-gNIR: Near-infrared band.
-Red: Red band.
+ - NIR: Near-infrared band.
+ - Red: Red band.
 Example Output
+![NDVI Plot](images/ndvi_plot.png "NDVI Plot")
 
 References
 rasterio Documentation
