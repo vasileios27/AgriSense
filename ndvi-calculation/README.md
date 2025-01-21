@@ -43,7 +43,7 @@ ndvi-calculation/
 ## Sample NDVI Formula
 NDVI is calculated as:
 
-NDVI=(NIR−Red)/(NIR+Red)
+$$NDVI = \frac{(NIR - Red)}{(NIR + Red)}$$
 
 Where:
 
