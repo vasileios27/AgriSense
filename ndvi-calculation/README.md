@@ -53,12 +53,11 @@ Example Output
 ![NDVI Plot](outputs/ndvi_plot.png "NDVI Plot")
 
 Example dataset
-- [eurosat](https://zenodo.org/records/7711810#.ZAm3k-zMKEA) _(opens in a new tab)_
+- [eurosat](https://zenodo.org/records/7711810#.ZAm3k-zMKEA) 
 
 References
- - [Sentinel-2 Data Overview](https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-2) _(opens in a new tab)_
- - [eurosat](https://zenodo.org/records/7711810#.ZAm3k-zMKEA) _(opens in a new tab)_
-
+ - [Sentinel-2 Data Overview](https://dataspace.copernicus.eu/explore-data/data-collections/sentinel-data/sentinel-2) 
+ - [eurosat](https://zenodo.org/records/7711810#.ZAm3k-zMKEA)
 
 License
 
