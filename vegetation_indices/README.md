@@ -54,7 +54,7 @@ Each file will be named as {INDEX_NAME}_plot.png.
 1. NDVI (Normalized Difference Vegetation Index)
 Formula:
 df'
-$$NDVI= (NIR−Red) /(NIR+Red)​$$
+$$NDVI= /frac{(NIR−Red)}{(NIR+Red)​}$$
  
 2. EVI (Enhanced Vegetation Index)
 Formula:
@@ -65,6 +65,22 @@ $$ EVI=2.5/times/frac{(NIR−Red)}{(NIR+6⋅Red−7.5⋅Blue+1)}$$
  
 3. SAVI (Soil Adjusted Vegetation Index)
 Formula:
+
+$$ SAVI= /frac{(NIR−Red)}{(NIR+Red+L)}/dot (1+L) $$
+
+Where $L=0.5$ (default value).
+
+4. GNDVI (Green Normalized Difference Vegetation Index)
+Formula:
+
+$$ GNDVI= /frac{(NIR−Green)}{(NIR+Green)} $$
+​
+ 
+5. MSAVI (Modified Soil Adjusted Vegetation Index)
+Formula:
+
+ $$ MSAVI=0.5/dot /left[2/dot NIR+1− 
+/sqrt{(2⋅NIR+1)^2 −8/dot(NIR−Red)} /right]
 
 
 ​
