@@ -79,25 +79,22 @@ $$ GNDVI= \frac{(NIR−Green)}{(NIR+Green)} $$
 5. MSAVI (Modified Soil Adjusted Vegetation Index)
 Formula:
 
- $$ MSAVI=0.5\dot [ 2/dot NIR+1−  \sqrt{(2⋅NIR+1)^2 −8\dot(NIR−Red)} ] $$
+ $$ MSAVI=0.5\dot [ 2\dot NIR+1−  \sqrt{(2⋅NIR+1)^2 −8\dot(NIR−Red)} ] $$
 
 
 ​
  
 Notes
 Input raster data must include the following bands:
-Band 2 (Blue)
-Band 3 (Green)
-Band 4 (Red)
-Band 8 (Near-Infrared, NIR)
-Ensure the bands are correctly indexed in the script (src.read(BAND_INDEX)).
+ - Band 2 (Blue)
+ - Band 3 (Green)
+ - Band 4 (Red)
+ - Band 8 (Near-Infrared, NIR)
+
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 References
-Sentinel-2 Data Overview
-Vegetation Indices Guide
-rasterio Documentation
-markdown
-Copy
-Edit
+ - Sentinel-2 Data Overview
+ - Vegetation Indices Guide
+ - rasterio Documentation
