@@ -79,7 +79,7 @@ $$ GNDVI= \frac{(NIR−Green)}{(NIR+Green)} $$
 5. MSAVI (Modified Soil Adjusted Vegetation Index)
 Formula:
 
- $$ MSAVI=0.5\dot \left[ 2/dot NIR+1−  \sqrt{(2⋅NIR+1)^2 −8\dot(NIR−Red)} \right] $$
+ $$ MSAVI=0.5\dot [ 2/dot NIR+1−  \sqrt{(2⋅NIR+1)^2 −8\dot(NIR−Red)} ] $$
 
 
 ​
