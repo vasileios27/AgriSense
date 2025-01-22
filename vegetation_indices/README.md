@@ -72,9 +72,7 @@ Where $L=0.5$ (default value).
 
 4. GNDVI (Green Normalized Difference Vegetation Index)
 Formula:
-
-$$ GNDVI= \frac{(NIR−Green)}{(NIR+Green)} $$
-​
+ $$ GNDVI= \frac{(NIR−Green)}{(NIR+Green)} $$
  
 5. MSAVI (Modified Soil Adjusted Vegetation Index)
 Formula:
