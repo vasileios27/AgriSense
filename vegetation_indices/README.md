@@ -80,7 +80,7 @@ $$ GNDVI= /frac{(NIR−Green)}{(NIR+Green)} $$
 Formula:
 
  $$ MSAVI=0.5/dot /left[2/dot NIR+1− 
-/sqrt{(2⋅NIR+1)^2 −8/dot(NIR−Red)} /right]
+/sqrt{(2⋅NIR+1)^2 −8/dot(NIR−Red)} /right] $$
 
 
 ​
