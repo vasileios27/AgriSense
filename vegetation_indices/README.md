@@ -53,10 +53,10 @@ Each file will be named as {INDEX_NAME}_plot.png.
 ## Vegetation Indices
 1. NDVI (Normalized Difference Vegetation Index)
 Formula:
-df'
+
 $$NDVI= \frac{(NIR−Red)}{(NIR+Red)​}$$
  
-2. EVI (Enhanced Vegetation Index)
+3. EVI (Enhanced Vegetation Index)
 Formula:
 
 $$ EVI=2.5\times\frac{(NIR−Red)}{(NIR+6⋅Red−7.5⋅Blue+1)}$$
