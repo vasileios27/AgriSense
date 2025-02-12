@@ -45,7 +45,7 @@ python src/vegetation_indices_plotter.py
 Each file will be named as {INDEX_NAME}_plot.png.
 
 ## Example Output
-![NDVI Plot](outputs/NDVI_plot.png "NDVI Plot")
+<img src="outputs/NDVI_plot.png" alt="NDVI Plot" width="400">
 
 ![EVI Plot](outputs/EVI_plot.png "EVI Plot")
 
