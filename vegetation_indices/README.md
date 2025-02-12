@@ -44,8 +44,6 @@ python src/vegetation_indices_plotter.py
  - Generated vegetation index plots will be saved in the outputs/ directory.
 Each file will be named as {INDEX_NAME}_plot.png.
 
-<img src="data/sample_data.tif" alt="Input data" width="400">
-
 ## Example Output
 <img src="outputs/NDVI_plot.png" alt="NDVI Plot" width="400">
 
